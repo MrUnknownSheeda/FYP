@@ -22,3 +22,6 @@ def stock_rates(request):
 
 def reports(request):
     return render(request, 'reports.html')
+
+def main(request):
+    return render(request, 'main.html')
